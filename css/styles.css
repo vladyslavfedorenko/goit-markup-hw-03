@@ -26,13 +26,14 @@ img {
 /*header*/
 
 .page-header {
-  border-bottom: 1px solid #d7dbfc;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  /* display: flex;  */
 }
 
 .header-content {
@@ -43,6 +44,7 @@ img {
 
 .navigation {
   display: flex;
+  align-items: center;
 }
 
 .header-nav {
