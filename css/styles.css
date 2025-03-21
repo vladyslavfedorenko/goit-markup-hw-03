@@ -278,6 +278,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px
 }
 
 .section-title {
@@ -288,11 +289,11 @@ img {
     text-align: center;
     text-transform: capitalize;
     color: #2E2F42;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .portfolio-content {
-  padding-bottom: 48px;
+  
   width: calc((100% - 2*24px)/3);
 }
 
