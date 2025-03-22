@@ -137,12 +137,13 @@ img {
 
  .central{
   background-color: #2E2F42;
+  padding: 188px 0;
 }
 
 .central-content {
   margin: 0 auto;
   max-width: 496px;
-  padding: 188px 0;
+  /* padding: 188px 0; */
 }
 
 .central-title {
@@ -153,6 +154,7 @@ img {
   color: #FFFFFF;
   text-align: center;
   margin-bottom: 48px;
+  max-width: 496px;
 }
 
 .central-button {
@@ -169,6 +171,7 @@ img {
   padding: 16px 32px;
   border: none;
   border-radius: 4px;
+  min-width: 169px
 }
 
 .central-button:hover,
@@ -322,6 +325,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .portfolio-text {
