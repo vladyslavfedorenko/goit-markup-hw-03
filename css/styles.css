@@ -39,7 +39,8 @@ img {
 .header-content {
   display: flex;
   justify-content: space-between;
-  margin: 24px 0;
+  padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .navigation {
@@ -56,7 +57,7 @@ img {
 }
 
 .logo {
-  margin-right: 76px;
+    margin-right: 76px;
     color: #4D5AE5;
     font-family: inherit;
     font-size: 18px;
@@ -176,6 +177,17 @@ img {
 } 
 
 /*section 2*/
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 .skils-section {
   padding: 120px 0;
