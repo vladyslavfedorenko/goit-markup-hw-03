@@ -39,8 +39,8 @@ img {
 .header-content {
   display: flex;
   justify-content: space-between;
-  padding-top: 24px;
-    padding-bottom: 24px;
+  /* padding-top: 24px;
+    padding-bottom: 24px; */
 }
 
 .navigation {
@@ -81,6 +81,7 @@ img {
 
 .menu-item {
   margin-right: 40px;
+  padding: 24px 0;
 }
 
 .menu-item:last-child {
@@ -89,6 +90,7 @@ img {
 
 .contacts-item { 
   margin-right: 40px;
+  padding: 24px 0;
 }
 
 .contacts-item:last-child {
