@@ -238,6 +238,7 @@ img {
 
 .team {
   background-color: #F4F4FD;
+  padding: 120px 0;
 }
 
 .team-item {
@@ -249,6 +250,7 @@ img {
 .team-list {
   background-color: #FFFFFF;
   width: calc((100%-3*24)/4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 
@@ -260,12 +262,11 @@ img {
     text-align: center;
     color: #2E2F42;
     text-transform: capitalize;
-    padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .name-team {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .team-people {
@@ -316,7 +317,6 @@ img {
 }
 
 .portfolio-content {
-  
   width: calc((100% - 2*24px)/3);
 }
 
