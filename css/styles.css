@@ -81,7 +81,12 @@ img {
 
 .menu-item {
   margin-right: 40px;
+  /* padding: 24px 0; */
+}
+
+.menu-item .link, .contacts-item .link {
   padding: 24px 0;
+  display: block;
 }
 
 .menu-item:last-child {
@@ -90,7 +95,7 @@ img {
 
 .contacts-item { 
   margin-right: 40px;
-  padding: 24px 0;
+  /* padding: 24px 0; */
 }
 
 .contacts-item:last-child {
