@@ -56,16 +56,16 @@ img {
   display: flex;
 }
 
-.logo {
+.page-header .logo {
     margin-right: 76px;
     color: #4D5AE5;
-    font-family: inherit;
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.03em;
     line-height: 1.17;
     text-decoration: none;
     text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
 }
 
 .logo-studio {
@@ -81,7 +81,6 @@ img {
 
 .menu-item {
   margin-right: 40px;
-  /* padding: 24px 0; */
 }
 
 .menu-item .link, .contacts-item .link {
@@ -95,7 +94,7 @@ img {
 
 .contacts-item { 
   margin-right: 40px;
-  /* padding: 24px 0; */
+
 }
 
 .contacts-item:last-child {
@@ -103,7 +102,6 @@ img {
 }
 
 .header-nav .link {
-  font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -127,7 +125,6 @@ img {
 }
 
 .contacts .link {
-  font-family: inherit;
   font-size: 16px;
   font-weight: 400;
   color: #434455;
@@ -152,7 +149,6 @@ img {
 }
 
 .central-title {
-  font-family: inherit;
   line-height: 1.07;
   letter-spacing: 0.02em;
   font-size: 56px;
@@ -164,7 +160,6 @@ img {
 
 .central-button {
   background-color: #4D5AE5;
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -209,7 +204,7 @@ img {
   gap: 24px;
 }
 .skils-item {
-  width: calc((100%-3*24)/3);
+  width: calc((100% - 3*24px)/3);
 }
 
 .skils-item:last-child {
@@ -217,7 +212,6 @@ img {
 }
 
 .skils-link {
-  font-family: inherit;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -227,7 +221,6 @@ img {
 }
 
 .skils-text {
-  font-family: inherit;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -243,19 +236,17 @@ img {
 
 .team-item {
   display: flex;
-  padding-bottom: 120px;
   gap: 24px;
 }
 
 .team-list {
   background-color: #FFFFFF;
-  width: calc((100%-3*24)/4);
+  width: calc((100% - 3*24px)/4);
   border-radius: 0px 0px 4px 4px;
 }
 
 
 .team-title {
-  font-family: inherit;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -270,7 +261,6 @@ img {
 }
 
 .team-people {
-    font-family: inherit;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -283,7 +273,7 @@ img {
 }
 
 .team-text {
-    font-family: inherit;
+  
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -306,7 +296,6 @@ img {
 }
 
 .section-title {
-    font-family: inherit;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -327,7 +316,6 @@ img {
 }
 
 .portfolio-link {
-    font-family: inherit;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -337,7 +325,6 @@ img {
 }
 
 .portfolio-text {
-    font-family: inherit;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
